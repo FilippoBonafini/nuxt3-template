@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    color: $primary;
+}
+
+body {
+    background-color: $secondary;
+}
+
+h1 {
+    color: $my-red;
+    font-size: $tex-big;
+}
+
+h2 {
+    font-size: $text-medium;
+}
