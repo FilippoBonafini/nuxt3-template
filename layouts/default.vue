@@ -11,3 +11,4 @@
     <AppFooter />
     <!-- /AUTO IMPORTIAMO IL COMPONENTE FOOTER  -->
 </template>
+
