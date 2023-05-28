@@ -1,14 +1,14 @@
 <template>
-    <!-- AUTO IMPORTIAMO IL COMPONENTE HEADER  -->
-    <AppHeader />
-    <!-- /AUTO IMPORTIAMO IL COMPONENTE HEADER  -->
+  <!-- AUTO IMPORTIAMO IL COMPONENTE HEADER  -->
+  <AppHeader />
+  <!-- /AUTO IMPORTIAMO IL COMPONENTE HEADER  -->
 
-    <!-- QUESTO E' UNO SPAZIO PER INSERIRE DATI  -->
-    <slot />
-    <!-- /QUESTO E' UNO SPAZIO PER INSERIRE DATI  -->
+  <!-- QUESTO E' UNO SPAZIO PER INSERIRE DATI  -->
+  <div class="min-h-screen"><slot /></div>
 
-    <!-- AUTO IMPORTIAMO IL COMPONENTE FOOTER  -->
-    <AppFooter />
-    <!-- /AUTO IMPORTIAMO IL COMPONENTE FOOTER  -->
+  <!-- /QUESTO E' UNO SPAZIO PER INSERIRE DATI  -->
+
+  <!-- AUTO IMPORTIAMO IL COMPONENTE FOOTER  -->
+  <AppFooter />
+  <!-- /AUTO IMPORTIAMO IL COMPONENTE FOOTER  -->
 </template>
-
