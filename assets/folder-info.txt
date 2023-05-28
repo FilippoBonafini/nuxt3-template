@@ -1,0 +1,13 @@
+In Nuxt 3, tutti gli asset statici utilizzati nel tuo progetto, come immagini, font, fogli di stile o file JavaScript, possono essere inseriti nella cartella "assets". Questa cartella si trova nella directory principale del tuo progetto Nuxt.
+
+Ecco alcuni esempi di cosa puoi includere nella cartella "assets":
+
+1. **Immagini**: Puoi creare una sottodirectory all'interno di "assets" chiamata "images" e inserire tutte le immagini che desideri utilizzare nel tuo progetto. Ad esempio, se hai un'immagine chiamata "logo.png", puoi metterla in "assets/images/logo.png".
+
+2. **Stili**: Puoi creare un file CSS nella cartella "assets" per i tuoi stili personalizzati. Ad esempio, puoi creare un file chiamato "styles.css" in "assets/styles.css".
+
+3. **Font**: Se hai dei font personalizzati da utilizzare nel tuo progetto, puoi inserire i file dei font nella cartella "assets/fonts". Ad esempio, puoi mettere un file del font chiamato "font.ttf" in "assets/fonts/font.ttf".
+
+4. **File JavaScript**: Se hai file JavaScript personalizzati, puoi inserirli nella cartella "assets/js" o in una sottodirectory appropriata. Ad esempio, puoi mettere un file chiamato "script.js" in "assets/js/script.js".
+
+Questi sono solo alcuni esempi, ma puoi organizzare i tuoi asset nella cartella "assets" in base alle tue esigenze specifiche. Una volta inseriti nella cartella "assets", puoi fare riferimento a questi asset nei tuoi componenti o file di configurazione utilizzando i percorsi relativi appropriati.

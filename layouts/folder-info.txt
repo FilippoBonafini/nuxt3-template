@@ -1,0 +1,15 @@
+Nella cartella "layouts" puoi inserire i layout dei tuoi componenti nell'applicazione Nuxt. I layout sono utilizzati per definire la struttura generale delle pagine dell'applicazione, come ad esempio l'intestazione e il piè di pagina che sono comuni a tutte le pagine.
+
+All'interno della cartella "layouts", puoi creare file Vue che rappresentano i diversi layout che desideri utilizzare. Ad esempio, potresti avere un file chiamato "Default.vue" che rappresenta il layout predefinito dell'applicazione, e un altro file chiamato "Auth.vue" che rappresenta il layout per le pagine di autenticazione.
+
+Ecco un esempio di come potrebbe apparire la struttura della cartella "layouts":
+
+```
+layouts/
+  |- Default.vue
+  |- Auth.vue
+```
+
+Nell'esempio sopra, abbiamo due file Vue nella cartella "layouts". Il file "Default.vue" rappresenta il layout predefinito che sarà utilizzato per la maggior parte delle pagine dell'applicazione. Il file "Auth.vue" rappresenta il layout specifico per le pagine di autenticazione.
+
+Puoi utilizzare i layout specificati nella cartella "layouts" nel file di configurazione delle pagine di Nuxt (solitamente `pages/index.vue`, `pages/about.vue`, ecc.) o anche in modo dinamico utilizzando il `layout` property all'interno delle pagine. In questo modo, puoi applicare un layout specifico a una pagina o a un gruppo di pagine nell'applicazione Nuxt.

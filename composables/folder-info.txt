@@ -1,0 +1,18 @@
+Nella cartella "composables" puoi inserire i tuoi composable, che sono delle funzioni riutilizzabili che possono essere utilizzate nei tuoi componenti. I composable in Nuxt sono solitamente creati utilizzando la funzionalità di composizione di Vue.js.
+
+All'interno della cartella "composables", puoi organizzare i tuoi composable in sottodirectory a seconda della struttura del tuo progetto o del loro scopo specifico. Ad esempio, potresti avere una sottodirectory chiamata "auth" per i composable relativi all'autenticazione, e un'altra sottodirectory chiamata "api" per i composable che gestiscono le chiamate API.
+
+Ecco un esempio di come potrebbe apparire la struttura della cartella "composables":
+
+```
+composables/
+  |- auth/
+  |    |- useAuth.js
+  |
+  |- api/
+       |- useApi.js
+```
+
+Nell'esempio sopra, abbiamo una cartella "auth" che contiene il composable "useAuth.js", che potrebbe contenere funzioni per gestire l'autenticazione dell'utente. La cartella "api" contiene il composable "useApi.js", che potrebbe contenere funzioni per gestire le chiamate alle API.
+
+I composable all'interno della cartella "composables" possono essere importati e utilizzati nei tuoi componenti. Ad esempio, se hai un componente chiamato "LoginForm.vue" nella cartella "components", puoi importare e utilizzare il composable "useAuth.js" all'interno di "LoginForm.vue" per gestire l'autenticazione dell'utente.

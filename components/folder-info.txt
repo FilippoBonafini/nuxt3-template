@@ -1,0 +1,17 @@
+Nella cartella "components" puoi inserire tutti i componenti riutilizzabili del tuo progetto. I componenti sono blocchi di codice che possono essere utilizzati in più parti dell'applicazione per ottenere funzionalità o layout comuni.
+
+All'interno della cartella "components", puoi organizzare i tuoi componenti in sottodirectory a seconda della struttura del tuo progetto. Ad esempio, potresti avere una sottodirectory chiamata "layout" per i componenti del layout dell'applicazione e un'altra sottodirectory chiamata "ui" per i componenti dell'interfaccia utente.
+
+Ecco un esempio di come potrebbe apparire la struttura della cartella "components":
+components/
+  |- layout/
+  |    |- Header.vue
+  |    |- Footer.vue
+  |
+  |- ui/
+       |- Button.vue
+       |- Modal.vue
+
+Nell'esempio sopra, abbiamo una cartella "layout" che contiene i componenti "Header.vue" e "Footer.vue", che rappresentano rispettivamente l'intestazione e il piè di pagina dell'applicazione. La cartella "ui" contiene i componenti "Button.vue" e "Modal.vue", che rappresentano rispettivamente un pulsante e una finestra modale riutilizzabili.
+
+I componenti all'interno della cartella "components" possono essere importati e utilizzati in altri componenti o pagine dell'applicazione. Ad esempio, se hai un file chiamato "Home.vue" nella cartella "pages", puoi importare e utilizzare il componente "Header.vue" come parte della tua pagina Home.
